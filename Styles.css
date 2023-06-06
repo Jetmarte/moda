@@ -278,7 +278,7 @@ p p-min {
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  background-color:#F2E8D9;
+  background-color: #f2e8d9;
 }
 
 .anuncio {
@@ -296,9 +296,10 @@ p p-min {
 .container-contact {
   padding-top: 70px;
   max-width: 1200px;
+  align-self: center;
   margin-bottom: 100px;
   display: flex;
-  flex-direction: colum;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -310,12 +311,14 @@ p p-min {
 }
 
 .contactme-text {
-  width: 89px;
-  height: 13px;
+  width: 100px;
+  height: 20px;
+  align-self: center;
+  text-align: center;
   left: 561px;
   top: 4442px;
-  margin-bottom: 30px;
-  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 
   font-family: "Roboto";
   font-style: normal;
@@ -333,6 +336,7 @@ p p-min {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 5px 5px 5px 5px;
 }
 .ico {
   width: 30px;
@@ -340,4 +344,12 @@ p p-min {
 a {
   text-decoration: none;
   color: #000000;
+}
+
+.logo-contact{
+  
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
